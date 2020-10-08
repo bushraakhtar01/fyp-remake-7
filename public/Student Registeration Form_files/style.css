@@ -1,0 +1,55 @@
+h1{
+  text-align: center; 
+  margin-top: -5px;
+  color: purple;
+  font-family: Arial, Helvetica, sans-serif ;
+}
+img{
+  width: 400px;
+  margin-left: 35%;
+}
+hr{
+  width: 39%;
+  margin-top: -25px;
+  color: purple;
+  border-width: 2px;
+}
+
+.name{
+  border-color: black;
+  border-style: solid;
+  background-color: rebeccapurple;
+}
+.label{
+  margin-left: 10px;
+  background-color: lawngreen;
+  display: inline-block;
+  width: 150px;  
+}
+.input{
+display: inline-block;
+margin-left: 80px;
+
+}
+#select{
+margin-left: 80px;
+}
+p{
+display: inline-block;
+}
+.gender-label{
+  margin-left: 80px;
+}
+textarea{
+  margin-left: 80px;
+}
+.others{
+  margin-left: 245px;
+}
+.head{
+  padding: 20px;
+}
+.heading{
+  padding: 20px;
+  margin-left: 80px;
+}

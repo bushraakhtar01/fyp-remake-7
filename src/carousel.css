@@ -1,0 +1,60 @@
+.h{
+    color: white;
+    font-size: 20px;
+
+    
+}
+
+.revitalizepara{
+    margin-top: -20px;
+}
+.d-block{
+    height: auto;
+}
+/* #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  } */
+
+@media(max-width:700px){
+  .h3-responsive{
+      margin: -2px auto -2px auto;
+      font-size: 15px;
+      
+  }
+  .revitalizepara{
+      font-size: 12px;
+      margin-top: unset;
+  }
+  .d-block{
+      height: 29vh;;
+  }
+
+  
+  .carousel-caption{
+      margin: -10px auto -10px auto;
+  }
+
+}
+
+@media all and (max-width: 1000px) and (orientation: landscape){
+
+    .d-block{
+        height: 70vh;
+    }
+}

@@ -1,0 +1,15 @@
+
+.inner-img {
+  transition: 0.7s;
+}
+
+.inner-img:hover {
+  transform: scale(1.3);
+}
+
+/* Other styling elements, that are not necessary for the example */
+/* 
+.img-wrapper {
+  display: inline-block;
+  box-sizing: border-box;
+} */

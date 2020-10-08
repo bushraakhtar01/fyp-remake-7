@@ -1,0 +1,222 @@
+.gallerycard{
+    background-color: white;
+    padding: 1%;
+}
+
+.collectionheading{
+    text-align: center;
+    font-size: 17px;
+    margin-top: 1%;
+    color: #666666;
+}
+.card-img{
+    height: 45vh;
+
+}
+.galleryHeading{
+text-align: center;
+padding: 2%;
+}
+.galleryLine{
+    border-color:  #666666;
+}
+ /* note css */
+.notediv{
+    background-color: #eeeeee;
+}
+.noteheading{
+    text-align:center;font-weight:bold;padding:50px;letter-spacing:4px;color:#666666;font-size:16px;
+}
+.noteline{
+width:70%;margin-top: -2%;color: #666666;
+}
+
+.notepara{
+    text-align: center;
+    font-size: 15px;
+    padding: 2%;
+    width: 70%;
+    margin-left: 15%;
+    color: #666666;
+
+}
+
+/* footer div */
+
+.footer{
+
+    margin-top: 0.5%;
+    
+}
+.footercolumn>ul>li{
+    display: block;
+}
+.li1{
+  font-weight: bolder;
+  font-size: 18px;
+  padding-bottom: 10%;
+  padding-left: 3%;
+  display: block;
+  text-align: justify;
+  letter-spacing: 1px;
+
+}
+.footercolumn ,.socialmediacol{
+    padding: 2%;
+
+}
+
+.socialmedia{
+    display: inline-block;
+}
+.footerlis{
+    padding:3% ;
+    font-size: 16px;
+
+}
+.facebook{
+    color: #0d47a1;
+}
+.twitter{
+  color: #2196f3;
+}
+.youtube{
+color: red;
+}
+.lastdiv{
+    background-color: black;
+}
+.lastfooter{
+    color:white;word-spacing:5px;font-weight:normal;font-size:15px ;text-align: center;
+    padding: 1%;
+}
+.footerlinks{
+    color: black;
+}
+.footerlinks:hover{
+    color: #666666;
+}
+@media(max-width:480px) {
+    .galleryHeading{
+      
+        font-size: 19px;
+        padding: 5%;
+        }
+    .gallerycard{
+        border-bottom: 1px solid #bdbdbd;
+        padding: 5%;
+              object-fit: cover;
+
+    }
+
+    /* note css */
+    .notediv{
+        height: auto;
+     
+    }
+    
+    .noteheading{
+        font-size: 13px;
+
+        padding: 0;
+        padding-top: 8%;
+        padding-left: 3%;
+    }
+    .noteline{
+        margin-top:5%;
+        width: 90%;
+    }
+    .notepara{
+          font-size: 12px;
+    }
+
+    /* footer css */
+
+
+    .li1{
+
+
+       margin-left: -12%;
+       padding: 2%;
+
+    }
+    .footerlis{
+
+        margin-left: -12%;
+        padding: 2%;
+        font-size: 14px;
+    }
+    .socialmedia{
+
+        margin-left: -12%;
+        padding: 2%;
+
+        width: 25%;
+
+
+
+        font-size: 14px;
+    }
+    .lastfooter{
+        font-size: 12px;
+        padding: 3%;
+    }
+
+}
+
+
+@media all and (max-width: 1000px) and (orientation: landscape){
+    .gallerycard{
+
+        border-bottom: 1px solid #bdbdbd;
+
+        width: 80%;
+
+       padding: 4%;
+       height: 100vh;
+        margin:0px auto 0px auto;
+
+
+    }
+    .card-img{
+
+       height: 100%;
+     }
+
+    .li1{
+
+
+       margin-left: -9%;
+       padding: 2%;
+       margin-top: -10px;
+
+    }
+    .footerlis{
+
+
+        margin-left: -9%;
+        padding: 1%;
+        font-size: 15px;
+        padding: 2%;
+    }
+    .socialmedia{
+
+        margin-left: -9%;
+
+
+        width: 18%;
+
+        padding: 1.5%;
+
+
+
+        font-size: 14px;
+    }
+
+    .lastfooter{
+        font-size: 12px;
+        padding: 2%;
+    }
+
+
+}

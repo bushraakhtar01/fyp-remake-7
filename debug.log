@@ -1,0 +1,8 @@
+[0725/072143.404:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0725/072143.404:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0725/072143.404:ERROR:exception_snapshot_win.cc(98)] thread ID 10164 not found in process
+[0725/072143.404:ERROR:exception_snapshot_win.cc(98)] thread ID 7668 not found in process
+[0725/072143.420:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0725/072143.420:ERROR:exception_snapshot_win.cc(98)] thread ID 13032 not found in process
+[0912/203406.467:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fff27b61800 of 28 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0912/203406.468:WARNING:pe_image_reader.cc(171)] could not read data directory from \\?\D:\Users\Haier\AppData\Local\Programs\Microsoft VS Code\resources\app\node_modules.asar.unpacked\vscode-sqlite3\build\Release\sqlite.node

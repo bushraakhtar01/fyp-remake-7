@@ -1,0 +1,81 @@
+#pinkcolumn{
+    height:24%;
+  }
+  .breadlink{
+    color: inherit;
+  }
+  .headingbrands{
+    text-align:center;padding:30px;font-size:50px;
+  }
+  .linebrands{
+    border-width:2px;background-color:#bdbdbd;opacity:0.5;
+  }
+  .parabrands{
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+  }
+  .brandsRow{
+  
+    margin-top: 5%;
+    box-shadow:1px 1px 16px #9e9e9e; 
+  }
+  .alphabetheadingbrands{
+    padding:15px;
+    font-size: 50px;
+  }
+  .alphabetlinebrands{
+    width:97%;border-width:2px;background-color:#eeeeee; margin-top: -30px;
+  }
+  .brandspiccard{ 
+  
+  
+    box-shadow:2px 3px 8px 2px #9e9e9e;
+  }
+  .brandspiccard>img{
+    height: 22vh;
+    width: auto;
+  }
+  .card-title{
+    text-align: center;
+    font-size: large;
+  }
+  .brandspicheading{
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+    color:  #616161;
+    letter-spacing: 0.8px;
+    white-space: nowrap;
+  }
+  
+  @media (max-width:480px){
+      #pinkcolumn{
+          height: 17vh;
+      }
+      .headingbrands{
+         font-size: 25px;
+      }
+  
+      .linebrands{
+          width: 70%;
+      }
+  
+      .parabrands{
+          font-size: 0.8em;
+      }
+
+    .brandspicheading{
+      font-size: 1em;
+    }
+  
+  }
+  
+  @media only screen and (max-width:1000px) and (orientation:landscape){
+
+    .brandspiccard>img{
+      height: 30vh;
+     
+    }
+
+  }

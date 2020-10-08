@@ -1,0 +1,165 @@
+/* .h3-responsive{
+    color: white;
+    font-size: 20px;
+    
+}
+.revitalizepara{
+    margin-top: -20px;
+}
+@media(max-width:700px){
+  .h3-responsive{
+      margin: -2px auto -2px auto;
+      font-size: 15px;
+      
+  }
+  .revitalizepara{
+      font-size: 12px;
+      margin-top: unset;
+  }
+  .d-block{
+      height: 29vh;;
+  }
+
+  
+  .carousel-caption{
+      margin: -10px auto -10px auto;
+  }
+
+}
+
+@media all and (max-width: 1000px) and (orientation: landscape){
+
+    .d-block{
+        height: 70vh;
+    }
+} */
+
+.allheadings{
+    color: #880E4F;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+.form-group span{
+    color: #E91E63;
+    font-weight: bold;
+}
+.form-group input:focus{
+    box-shadow: none; -webkit-box-shadow: none;
+    border-color: #e91e63;
+   
+  }
+  .form-group textarea:focus{
+    box-shadow: none; -webkit-box-shadow: none;
+    border-color: #e91e63;
+  }
+  .responseofsubmit{
+      font-weight: bold;
+      display: none ;
+      background-color: #c5e1a5;
+      border-radius: 5px;
+      font-size: 15px;
+
+  }
+  .declineofsubmit{
+  color: black;
+    display: none ;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #ef9a9a;
+
+  }
+  .queriessubmitbutton{
+    border-radius: 5px !important;
+    background-color: #e91e63 !important;
+    border-color: inherit !important;
+    width: 50%;
+    display: block;
+    margin: 0px auto;
+  }
+  
+  form button:focus{
+    background-color: #880e4f !important;
+    box-shadow: none !important; 
+  }
+  .fa-check{
+      color: green !important;
+  }
+  .fa-times{
+      color: red;
+  }
+.contactussubheadings{
+color: #880E4F;
+font-size: 17px;
+}
+.contactuspara{
+    line-height: 1.5rem;
+  color: black !important;
+  font-weight: 600;
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+.allheadings{
+    color: #880E4F;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 30px;
+    margin-left: 8px;
+  }
+  
+  .subheadings{
+  color: #880E4F;
+  font-size: 17px;
+  }
+  
+  .contactuspara{
+  line-height: 1.5rem;
+  color: black !important;
+  margin-bottom: 0px;
+  font-size: 14px;
+  margin : 10px 10px;
+  text-align: justify;
+  }
+  
+  .aboutdiv{
+    background-color: white;
+    margin-top: 100px;
+    position: absolute;
+    z-index: 1;
+    width: 600px;
+    margin-left: 7%;
+  }
+  
+  .imageabout{
+    height: 550px;
+    width: 400px;
+    border: 10px solid black;
+    margin-left: 600px;
+    margin-bottom: 100px;
+  }
+  
+  @media(max-width: 900px){
+    .imageabout{
+      display: none;
+    }
+    .aboutdiv{
+      margin-left: 0%;
+      width: auto;
+      position: relative;
+      margin-bottom: 100px;
+    }
+  }
+  
+  @media(max-width:400px){
+    .allheadings{
+        font-size: 23px;
+    }
+  }
+@media(max-width:400px){
+    .allheadings{
+        font-size: 23px;
+    }
+    .form-group>label{
+        font-size: 14px;
+    }
+}
